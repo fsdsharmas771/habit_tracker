@@ -1,0 +1,21 @@
+{
+  "name": "habit-tracker-master",
+  "version": "1.0.0",
+  "description": "habbit tracker web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Tarun Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^5.10.1",
+    "node-sass-middleware": "^1.0.1"
+  }
+}
